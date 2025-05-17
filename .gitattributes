@@ -1,0 +1,6 @@
+# Set all text files to use LF line endings in the repository
+* text=auto eol=lf
+
+# Explicitly ensure specific file types use LF
+*.{css,ts,tsx,js,mjs,json,md} text eol=lf
+.gitattributes text eol=lf
